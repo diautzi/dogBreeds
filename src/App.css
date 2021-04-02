@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pictures-list {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.breed-list {
+  padding: 25px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
